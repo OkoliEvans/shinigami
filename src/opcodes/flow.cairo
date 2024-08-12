@@ -16,7 +16,7 @@ pub fn is_branching_opcode(opcode: u8) -> bool {
 
 pub fn opcode_nop() -> Result<(), felt252> {
     return Result::Ok(());
-}
+} //
 
 // TODO: MOve to cond_stack
 const op_cond_false: u8 = 0;
